@@ -7,7 +7,7 @@
     }
 
     .cabecalho .menu li a {
-        padding: 15px;
+        padding: 0.9px;
     }
 
     .home .informacoes {
@@ -24,6 +24,18 @@
 
     .compre .card {
         width: 70%;
+    }
+
+    .rodape {
+        height: 210px;
+    }
+    
+    .rodape .titulo_contato {
+        gap: 10px;
+    }
+
+    .rodape .texto_contato {
+        gap: 10px;
     }
 }
 
@@ -54,6 +66,15 @@
         width: 100%;
         flex-direction: column;
     }
+
+    .rodape .titulo_contato {
+        gap: 10px;
+    }
+
+    .rodape .texto_contato {
+        gap: 10px;
+    }
+
 }
 
 @media (max-width: 425px) {
